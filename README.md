@@ -43,5 +43,6 @@ The coefficients \( \frac{1}{32} \) are powers of two, enabling efficient **hard
 ## Project Structure
 
 ```text
-├── HPF_biowear.vhd   # VHDL implementation of the high-pass └── README.md         # Project documentation
+├── HPF_biowear.vhd   # VHDL implementation of the high-pass 
+└── README.md         # Project documentation
 ```
