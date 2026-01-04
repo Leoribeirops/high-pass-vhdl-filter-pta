@@ -1,0 +1,9 @@
+# Ignora tudo
+*
+
+# Permite o próprio .gitignore
+!.gitignore
+!*.md
+
+# Permite apenas arquivos VHDL
+!*.vhd
