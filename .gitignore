@@ -4,6 +4,7 @@
 # Permite o próprio .gitignore
 !.gitignore
 !*.md
+!.github/
 
 # Permite apenas arquivos VHDL
 !*.vhd
