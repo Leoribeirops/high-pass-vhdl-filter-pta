@@ -186,7 +186,7 @@ The project structure allows easy extension to additional Pan–Tompkins stages.
 - Structural implementation in VHDL
 - Co-simulation and functional validation
 
-## pplications
+## Applications
 
 - QRS detection (Pan-Tompkins algorithm)
 - Low-power VLSI architectures
