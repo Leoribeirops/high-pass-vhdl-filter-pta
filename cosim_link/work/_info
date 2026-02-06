@@ -1,0 +1,404 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/dev_2025_local/biowear/high-pass-vhdl-filter-pta/cosim_link
+T_opt
+!s110 1770387372
+VliFj`2iV]>eL6D<PFC]Gb1
+04 16 13 work high_pass_filter comportamento 1
+=1-e0d55ef60f7c-6985f7ac-1d3-444c
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+Pcomp_gen
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+Z3 w1770387237
+R0
+Z4 8G:/dev_2025_local/biowear/high-pass-vhdl-filter-pta/vhdl/High_pass_filter.vhd
+Z5 FG:/dev_2025_local/biowear/high-pass-vhdl-filter-pta/vhdl/High_pass_filter.vhd
+l0
+L169 1
+Vf=kez1[_XAoOKg`2YlQ281
+!s100 hH2U];LH09V635`=Q5H:52
+Z6 OL;C;2020.4;71
+32
+Z7 !s110 1770387265
+!i10b 1
+Z8 !s108 1770387265.000000
+Z9 !s90 -work|work|-2002|-explicit|-vopt|-stats=none|G:/dev_2025_local/biowear/high-pass-vhdl-filter-pta/vhdl/High_pass_filter.vhd|
+Z10 !s107 G:/dev_2025_local/biowear/high-pass-vhdl-filter-pta/vhdl/High_pass_filter.vhd|
+!i113 0
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Ediv32
+R3
+Z13 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+!i122 1
+R0
+R4
+R5
+l0
+L114 1
+VjkUUTMD6VzWBei74RlzzR1
+!s100 d5zNM99nLYmiQkhYz8c<>2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Abehavior
+R13
+R14
+R1
+R2
+DEx4 work 5 div32 0 22 jkUUTMD6VzWBei74RlzzR1
+!i122 1
+l125
+L122 18
+VUO]C2K]Q1fl2gi8ZCg0I@0
+!s100 ?gTEadnn<1`h56e74@AOZ3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ehigh_pass_filter
+R3
+Z15 DPx4 work 8 comp_gen 0 22 f=kez1[_XAoOKg`2YlQ281
+R13
+R14
+R1
+R2
+!i122 1
+R0
+R4
+R5
+l0
+L226 1
+VcS;<loNi_efchWWRQ96Xz1
+!s100 _`dh_8z`mz3aEllEzSQ0[3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Acomportamento
+R15
+R13
+R14
+R1
+R2
+DEx4 work 16 high_pass_filter 0 22 cS;<loNi_efchWWRQ96Xz1
+!i122 1
+l250
+L235 124
+VUa1ndR^l`UQmCQC>B9=cH1
+!s100 CfjYGX;kBe;@LOV_XT;cc3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Emult_gen
+R3
+R14
+R13
+R1
+R2
+!i122 1
+R0
+R4
+R5
+l0
+L74 1
+VnSETM3zj^b[7E?C;;4Mnj2
+!s100 f9m1`cSgH31OBBBA6;]i40
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Acomp
+R14
+R13
+R1
+R2
+DEx4 work 8 mult_gen 0 22 nSETM3zj^b[7E?C;;4Mnj2
+!i122 1
+l81
+L80 5
+V@dciNR?l<CkL1bC5gE[dA0
+!s100 H^H;oMk618I?gL3Je11eC1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Ereg_gen
+R3
+R13
+R14
+R1
+R2
+!i122 1
+R0
+R4
+R5
+l0
+L44 1
+V58]<RGS7d2DRcTlmfcG0=1
+!s100 fNhBXfY6RI[PWO`D6i4;M1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Acomp
+R13
+R14
+R1
+R2
+DEx4 work 7 reg_gen 0 22 58]<RGS7d2DRcTlmfcG0=1
+!i122 1
+l53
+L51 17
+V=Je<4QZX7b<^4;D@L7>G41
+!s100 ci=2CTi[eAZj=?6d[jnLT1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Esum_gen
+R3
+R14
+R13
+R1
+R2
+!i122 1
+R0
+R4
+R5
+l0
+L9 1
+VDCbK6aSA6=5MMcVh:QDRW3
+!s100 YDTFhY=n1SfnjLcmSA>Nh3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Acomp
+R14
+R13
+R1
+R2
+DEx4 work 7 sum_gen 0 22 DCbK6aSA6=5MMcVh:QDRW3
+!i122 1
+l16
+L15 5
+VmNN6SR]8dB6=9`Cc[8f[?1
+!s100 0cYJX95kOE;jzfMW9UDQC3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Esum_gen_2
+R3
+R14
+R13
+R1
+R2
+!i122 1
+R0
+R4
+R5
+l0
+L27 1
+V>FR71CYdn<TMEoZ`9e=Z82
+!s100 nE1hN:gkzWoPY[:GToJLE1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Acomp
+R14
+R13
+R1
+R2
+DEx4 work 9 sum_gen_2 0 22 >FR71CYdn<TMEoZ`9e=Z82
+!i122 1
+l34
+L33 4
+Vo@clPXH8<:cF[fI4HmkM32
+!s100 AheYZ^YmSH3dlYmV6ZQWQ0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etrun_gen_c
+R3
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R14
+R1
+R2
+!i122 1
+R0
+R4
+R5
+l0
+L91 1
+V38[@BN6oLz::BYbhad8Se3
+!s100 ga_EGShZ8nb4@z8=Hd14o2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Acomp7
+R16
+R14
+R1
+R2
+DEx4 work 10 trun_gen_c 0 22 38[@BN6oLz::BYbhad8Se3
+!i122 1
+l98
+L97 11
+VZ>O[PLTFeaGBODChzDASL1
+!s100 TSC1c4N19LikC2];]YIG^3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Etwoscompliment
+R3
+R16
+R14
+R1
+R2
+!i122 1
+R0
+R4
+R5
+l0
+L147 1
+VSM;Cd88DL;iJSSX[N?Hd83
+!s100 @a1K9VS^Pzg_bFKkciSPU0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12
+Acomp
+R16
+R14
+R1
+R2
+DEx4 work 14 twoscompliment 0 22 SM;Cd88DL;iJSSX[N?Hd83
+!i122 1
+l159
+L157 6
+V82;[Mk[`VY;dRjDn1W2j<1
+!s100 ^J^SKjm9h0_m:LY9:nd_52
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12

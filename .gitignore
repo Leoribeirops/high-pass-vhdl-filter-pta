@@ -1,10 +1,187 @@
-# Ignora tudo
-*
+############################
+# === EXCEÇÃO PARA BACKUP ===
+############################
 
-# Permite o próprio .gitignore
-!.gitignore
-!*.md
-!.github/
+# Nunca ignore essa pasta
+!backup_cosim/
+# Nunca ignore nada dentro dela  
+!backup_cosim/**
 
-# Permite apenas arquivos VHDL
-!*.vhd
+
+############################
+# === Arquivos Temporários ===
+############################
+
+#data/*
+results/*
+docs/*
+scripts/*
+vhdl/**/*.txt
+groundtruth/*
+
+############################
+# === MATLAB / Simulink === 
+############################
+*.asv
+*.m~
+*.autosave
+#slprj/
+#*.slxc
+*.mdl.autosave
+*.slx.autosave
+**/codegen/
+**/sldv_output/
+*.mex*
+*.p
+
+#compile_and_launch.tcl
+#compile_hdl_design_wavelet_db4_d4_stream_hwfriendly_01.m
+#*mti
+#*mpf
+#*.do
+#launch_hdl_simulator_wavelet_db4_d4_stream_hwfriendly_01.m
+#tmw_esl_vsim_launch.bat
+#workspace/
+#compile_hdl_design_*.m
+#launch_hdl_simulator*.m
+
+############################
+# === ModelSim / Questa ===
+############################
+#work/
+#modelsim.ini
+#transcript
+#vsim.wlf
+#*.wlf
+#*.vcd
+#*.vpd
+#*.log
+#*.jou
+*.bak
+*.qpf
+*.qsf
+#dump_db4_stage_top_internal_bin.csv
+#*.txt
+
+############################
+# OS / IDE
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# === Quartus Prime ===
+############################
+
+# Compilação e síntese
+db/
+incremental_db/
+simulation/
+output_files/
+greybox_tmp/
+qdb/
+cmp/
+cdb/
+TclScriptsHGB/
+
+############################
+# === Arquivos Temporários ===
+############################
+
+*.rpt
+*.summary
+*.done
+*.chg
+*.eqn
+*.pin
+*.qws
+*.jdi
+*.sof
+*.pof
+*.jic
+*.map.*
+*.fit.*
+*.asm.*
+*.sta.*
+*.qsf.bak
+*.qpf.bak
+
+# Netlists e arquivos intermediários
+*.vo
+*.vho
+*.sdo
+*.sdf
+*.sip
+
+# IP Catalog / Platform Designer
+ip/
+ip_cache/
+qsys/
+*.qsys
+*.qsys_edit
+*.qsys_tmp
+
+# TimeQuest
+*.sdc~
+*.sdc.bak
+
+# SignalTap
+*.stp
+*.stp.bak
+
+############################
+# === ModelSim / Questa ===
+############################
+
+#work/
+#modelsim.ini
+#transcript
+#vsim.wlf
+#*.wlf
+#*.vcd
+#*.vpd
+#*.log
+#*.jou
+#*.bak
+
+############################
+# === MATLAB / Simulink ===
+############################
+
+# MATLAB
+*.asv
+*.m~
+*.autosave
+*.mex*
+*.p
+#*.mat
+
+# Simulink
+#slprj/
+#*.slxc
+*.mdl.autosave
+*.slx.autosave
+**/codegen/
+**/sldv_output/
+
+############################
+# === Python (se existir) ===
+############################
+
+__pycache__/
+*.pyc
+
+############################
+# === Sistema / IDE ===
+############################
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+
+
